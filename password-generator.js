@@ -1,5 +1,5 @@
-var generator = require("generate-password");
-var password = generator.generate({
+const generator = require("generate-password");
+const password = generator.generate({
   length: 10,
   numbers: true,
 });
